@@ -27,7 +27,7 @@
 
 Este proyecto está bajo una **Licencia Propietaria Restrictiva**. Ver el archivo [LICENSE](LICENSE) para más detalles.
 
-**Copyright © 2024 Watrax. Todos los derechos reservados.**
+**Copyright © 2025 Watrax. Todos los derechos reservados.**
 
 ## 🛡️ Protecciones Implementadas
 
@@ -55,8 +55,6 @@ Al acceder a este repositorio, aceptas:
 3. Respetar los derechos de autor del creador
 4. Contactar al autor para cualquier uso del código
 
-**Cualquier violación de estos términos será perseguida legalmente.**
-
 ---
 
 ### 🎨 Sobre el Proyecto
@@ -76,8 +74,9 @@ Portafolio personal desarrollado con:
 
 **Este código NO es open source. Este código NO es una plantilla. Este código NO está disponible para uso público.**
 
-Si encuentras este código siendo usado sin autorización, por favor repórtalo a: watrax@example.com
+Si encuentras este código siendo usado sin autorización, por favor repórtalo a mi discord <3
 
 ---
 
-*Última actualización: 2024*
+*Última actualización: 2025*
+

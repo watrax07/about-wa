@@ -1,0 +1,238 @@
+<!--
+    ⚠️ COPYRIGHT NOTICE ⚠️
+    
+    © 2024 Watrax. Todos los derechos reservados.
+    
+    Este código está protegido por derechos de autor.
+    Queda PROHIBIDO copiar, modificar, distribuir o usar este código
+    sin autorización explícita por escrito del autor.
+    
+    Para colaboraciones o permisos: watrax@example.com
+    
+    Violaciones serán perseguidas legalmente.
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Proyectos - Watrax">
+    <title>Mis Proyectos | Watrax</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="matrix-rain"></div>
+    </div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-bracket"><</span>
+                <span class="logo-text">Watrax</span>
+                <span class="logo-bracket">/></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html#home" class="nav-link">Inicio</a></li>
+                <li><a href="index.html#about" class="nav-link">Sobre Mí</a></li>
+                <li><a href="index.html#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portafolio</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="portfolio-header">
+        <div class="container">
+            <div class="portfolio-header-content">
+                <h1 class="portfolio-title">
+                    <span class="title-bracket"><</span>
+                    Mis Proyectos
+                    <span class="title-bracket">/></span>
+                </h1>
+                <p class="portfolio-subtitle">
+                    Aquí está todo lo que he ido haciendo. 
+                    Algunos están más pulidos que otros, puesto que he ido aprendiendo con el tiempo.
+                </p>
+                <a href="index.html" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Volver al Inicio
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-page">
+        <div class="container">
+            <div class="portfolio-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fab fa-discord project-icon"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Discord Bots</h3>
+                        </div>
+                        <p class="project-description">
+                            Varios bots para Discord que he ido creando. Tienen de todo: moderación, 
+                            música, juegos, economía y comandos custom. Básicamente bots ultra avanzados.
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Discord.js</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fab fa-windows project-icon"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Windows Multitool</h3>
+                        </div>
+                        <p class="project-description">
+                            Una navaja suiza para Windows. Tiene un montón de utilidades para optimizar 
+                            el sistema, limpiar archivos, gestionar procesos y hacer tweaks.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">C</span>
+                            <span class="tag">Windows API</span>
+                            <span class="tag">GUI</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-network-wired project-icon"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Network Scanner</h3>
+                        </div>
+                        <p class="project-description">
+                            Escáner de red que hice para aprender cómo funcionan las redes por dentro. 
+                            Detecta dispositivos, analiza puertos y mapea la red.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Nmap</span>
+                            <span class="tag">Networking</span>
+                            <span class="tag">Security</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-lock project-icon"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Password Manager</h3>
+                       <!-- <div class="project-links"> 
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>-->
+                        </div>
+                        <p class="project-description">
+                            Gestor de contraseñas porque no me fiaba de los que hay por ahí. Usa 
+                            encriptación AES-256, genera contraseñas fuertes y tiene 2FA. Todo se 
+                            guarda local, nada de nubes raras.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Cryptography</span>
+                            <span class="tag">SQLite</span>
+                            <span class="tag">Security</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-server project-icon"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>API REST Backend</h3>
+                        </div>
+                        <p class="project-description">
+                            Backend con API REST que hice para varios proyectos. Tiene autenticación 
+                            JWT, rate limiting para que no te tumben el servidor, y documentación 
+                            automática. También le metí tests porque sí.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">JWT</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-terminal project-icon"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>CLI Tools Collection</h3>
+                        </div>
+                        <p class="project-description">
+                            Un montón de scripts CLI que uso todos los días. Cosas para Git, Docker, 
+                            manejo de archivos y más.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Bash</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">CLI</span>
+                            <span class="tag">DevOps</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-footer">
+                <a href="index.html" class="btn btn-primary btn-large">
+                    <i class="fas fa-home"></i> Volver al Inicio
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy;  Diseñado y desarrollado con <i class="fas fa-heart"></i></p>
+                </div>
+                <div class="footer-right">
+                    <a href="#" class="footer-link">Volver arriba <i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -7,38 +7,15 @@
 
 **Este repositorio contiene código propietario protegido por derechos de autor.**
 
-### 🚫 PROHIBIDO:
-
-- ❌ Copiar el código
-- ❌ Modificar el código
-- ❌ Distribuir el código
-- ❌ Usar como plantilla
-- ❌ Uso comercial
-- ❌ Hacer fork sin autorización
-- ❌ Clonar para uso personal
-
-### ✅ PERMITIDO:
-
-- ✔️ Ver el código con fines educativos
-- ✔️ Dar estrella al repositorio
-- ✔️ Compartir el link del repositorio
 
 ## 📜 Licencia
 
 Este proyecto está bajo una **Licencia Propietaria Restrictiva**. Ver el archivo [LICENSE](LICENSE) para más detalles.
 
-**Copyright © 2025 Watrax. Todos los derechos reservados.**
+**Copyright © 2026 Watrax. Todos los derechos reservados.**
 
 ## 🛡️ Protecciones Implementadas
 
-Este sitio web incluye múltiples capas de protección anti-copia:
-
-- 🔐 Detección de DevTools
-- 🚫 Bloqueo de clic derecho
-- 🔒 Texto no seleccionable
-- ⌨️ Atajos de teclado deshabilitados
-- 🎯 Detección de debugger
-- 📋 Clipboard bloqueado
 
 ## 📧 Contacto
 
@@ -79,4 +56,5 @@ Si encuentras este código siendo usado sin autorización, por favor repórtalo 
 ---
 
 *Última actualización: 2025*
+
 
